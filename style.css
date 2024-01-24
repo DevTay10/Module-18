@@ -62,6 +62,7 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    transition: background-color 0.5s ease;
     
 }
 
@@ -84,7 +85,7 @@ body{
     
     float: left;
     width: 74%;
-    border-right: 2px #B0B0B0 solid;
+    border-right: 1% #B0B0B0 solid;
     
 }
 
@@ -97,14 +98,42 @@ body{
 
 .LeftSide Box{
     
-    border-right: 2px #B0B0B0 solid;
+    border-right: 1% #B0B0B0 solid;
     display: flex;
     
 }
 
+.RightSide{
+ 
+    display: grid;
+    grid-template-rows: 30% 30% 30%;
+    grid-template-columns: 100%;
+    background-color: white;
+    
+}
+
+.RightSide > div{
+    
+    background-color: rgba(255, 255, 255, .8);
+    text-align: center;
+    padding: 2%, 0;
+    
+}
+
+
+.Item1 Item2. Item3. {
+    
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+
+}
+
 .Box P1{
     
-    padding: 5px;
+    padding: 2%;
     color: #1A1A1A;
     
     
@@ -163,7 +192,7 @@ P1{
     
     font-family: "Roboto", sans-serif;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 2.5em;
     color: #1A1A1A;
     
 }
@@ -172,7 +201,7 @@ P2{
     
     font-family: "Roboto", sans-serif;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 2em;
     color: #1A1A1A;
     
 }
@@ -181,7 +210,7 @@ P2{
 H1{
     
     font-family: sans-serif;
-    font-size: 36px;
+    font-size: 5em;
     color: #9E0000;
     
 }
@@ -189,7 +218,7 @@ H1{
 H2 {
     
     font-family: serif;
-    font-size: 24px;
+    font-size: 3.5em;
     color: #1A1A1A;
     
 }
