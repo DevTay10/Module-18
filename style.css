@@ -111,7 +111,6 @@ body{
 }
 
 
-
 .skillsBox {    
     
     display: grid;
@@ -120,6 +119,7 @@ body{
     background-image: linear-gradient(0deg, #9E0000 0%, rgba(158, 0, 0, 0.00) 50%);
     
 }
+
 
 .skillsBox:hover{
     
@@ -133,7 +133,6 @@ body{
     text-align: center;
     padding: 20px 0;
     
-    
 }
 
 
@@ -145,6 +144,7 @@ body{
     
 }
 
+
 .miniBox{
     
     display: grid;
@@ -152,6 +152,7 @@ body{
     padding: 10px;
     
 }
+
 
 .Item1, .Item2, .Item3{
     
@@ -176,16 +177,17 @@ body{
 
 
 .Main:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
     
 }
 
 
 .responsive {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
+    
 }  
 
 
@@ -244,6 +246,7 @@ H2 {
     grid-template-rows: 100%;
     background-color: #B0B0B0;
     padding-top: 2%;
+    
 }
 
 
